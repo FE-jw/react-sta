@@ -1,0 +1,10 @@
+[data-sta]	{
+	--sta-distance: 60px;
+	--sta-duration: 1s;
+	--sta-delay: 0;
+	opacity:0;transform:translate(0, var(--sta-distance));
+}
+[data-sta][data-sta-direction='ttb']	{transform:translate(0, calc(var(--sta-distance) * -1));}
+[data-sta][data-sta-direction='ltr']	{transform:translate(calc(var(--sta-distance) * -1), 0);}
+[data-sta][data-sta-direction='rtl']	{transform:translate(var(--sta-distance), 0);}
+[data-sta].sta-trigger	{opacity:1;transform:translate(0);transition-property:opacity, transform;transition-duration:var(--sta-duration);transition-delay:var(--sta-delay);}

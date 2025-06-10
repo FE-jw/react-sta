@@ -1,0 +1,14 @@
+{
+  "name": "react-sta",
+  "version": "0.1.0",
+  "author": "JW",
+  "description": "[React.js] Scroll trigger Animation",
+  "main": "dist/module.mjs",
+  "keywords": ["sta", "react-sta", "react sta", "animation", "scroll animation"],
+  "homepage": "https://github.com/FE-jw/react-sta",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FE-jw/react-sta.git"
+  },
+  "license": "MIT"
+}
