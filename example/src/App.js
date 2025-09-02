@@ -1,7 +1,6 @@
-// import logo from './logo.svg';
 import STA from './components/sta';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ea.
@@ -9,5 +8,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
